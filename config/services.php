@@ -43,8 +43,8 @@ return [
 
     'google' => [
 
-    'client_id' => '41399003601-aplsltjqdhbe2d7tr4qd4bb5ohe6acjs.apps.googleusercontent.com',       
-    'client_secret' => 'gZW3gDHjJy3hWDmcfdIOkp1k', 
+    'client_id' => '293027951991-fnjtf3s4pnpl3grjdn6pqsed97e05avb.apps.googleusercontent.com',       
+    'client_secret' => '7ET5tKjn__WKnkF0koJbWYhS', 
     'redirect' => 'https://www.fortune-quiz.in/login/google/callback',//'http://127.0.0.1:8000/login/google/callback',
     ],
 
