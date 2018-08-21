@@ -42,9 +42,10 @@ return [
     ],
 
     'google' => [
-    'client_id' => '375334098430-mciv8uavkpgv5v8mjbiroj6om7g7l83n.apps.googleusercontent.com',       
-    'client_secret' => 'Cp8coByS8KTx8kI294cf1V6a', 
-    'redirect' => 'http://127.0.0.1:8000/login/google/callback',
+
+    'client_id' => '41399003601-aplsltjqdhbe2d7tr4qd4bb5ohe6acjs.apps.googleusercontent.com',       
+    'client_secret' => 'gZW3gDHjJy3hWDmcfdIOkp1k', 
+    'redirect' => 'https://www.fortune-quiz.in/login/google/callback',//'http://127.0.0.1:8000/login/google/callback',
     ],
 
 ];
