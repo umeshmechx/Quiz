@@ -42,8 +42,8 @@ class LoginController extends Controller
     public function redirectToProvider($service)
     {
        // return Socialite::driver('facebook')->redirect();
-       // return  Socialite::driver($service)->redirect();
-       return  Socialite::driver($service)->stateless()->user();
+       return  Socialite::driver($service)->redirect();
+      // return  Socialite::driver($service)->stateless()->user();
     }
 
    
