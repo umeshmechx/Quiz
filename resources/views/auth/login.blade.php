@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -54,13 +55,18 @@
                                 <button type="submit" class="btn btn-success">
                                     Login
                                 </button>
-                                 <a  href="/login/google" class="btn btn-danger">Google</button>
-                                 <a  href="/login/facebook" class="btn btn-danger">Facebook</button>
-
+                
+                                
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
                             </div>
+                            <hr>
+                            <div class="col-md-8 col-md-offset-4">
+                                <a  href="/login/google" class="btn btn-default">Google</a>
+                                 <a  href="/login/facebook" class="btn btn-default">Facebook</a>
+                             </div>
+
                         </div>
                     </form>
                 </div>
