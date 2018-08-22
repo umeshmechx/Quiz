@@ -15,6 +15,11 @@
                     @endif
 
                     Welcome {{ Auth::user()->name }}
+                    <a href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                 document.getElementById('logout-form').submit();" class="btn btn-default">
+                        Logout
+                    </a>
                     <example></example>
                 </div>
             </div>
