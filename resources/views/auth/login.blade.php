@@ -63,9 +63,10 @@
                             </div>
                             <hr>
                             <div class="col-md-8 col-md-offset-4">
-                                <a  href="/login/google" class="btn btn-default">Google</a>
-                                 <a  href="/login/facebook" class="btn btn-default">Facebook</a>
+                                <a  href="/login/google" class="btn btn-danger">Log in with Google</a>
+                                 <a  href="/login/facebook" class="btn btn-primary">Log in with Facebook</a>
                              </div>
+
 
                         </div>
                     </form>
