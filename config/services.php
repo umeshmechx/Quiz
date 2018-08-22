@@ -38,7 +38,7 @@ return [
  'facebook' => [
     'client_id' => '227340851423105',        //env('GITHUB_CLIENT_ID'),         // Your GitHub Client ID
     'client_secret' => '4495fa9c8fa3a4569fa942d1d0f6fa28', //env('GITHUB_CLIENT_SECRET'), // Your GitHub Client Secret
-    'redirect' => 'http://127.0.0.1:8000/login/facebook/callback',
+    'redirect' => 'https://www.fortune-quiz.in/login/facebook/callback',
     ],
 
     'google' => [
