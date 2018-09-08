@@ -20,6 +20,10 @@
                                  document.getElementById('logout-form').submit();" class="btn btn-default">
                         Logout
                     </a>
+                    <div class="panel-body text-center">
+                    <button id="rzp-button1">Pay</button>
+                  
+                </div>
                     <example></example>
                 </div>
             </div>
