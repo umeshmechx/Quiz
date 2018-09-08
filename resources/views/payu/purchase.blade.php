@@ -5,8 +5,7 @@ use Razzbee\PayUMoney\PayUMoney;
 
 $payumoney = new PayUMoney([
     'merchantId' => 'koYEiDcf',
-    'secretKey'  => 'e8e9ojGDNTxUWRIBsKBt/m/JicyY9xGlbwZGG8JScgw=
-SHARE WITH DEVELOPER',
+    'secretKey'  => 'e8e9ojGDNTxUWRIBsKBt/m/JicyY9xGlbwZGG8JScgw=',
     'salt'       =>  'X5gE17PVwc',
     'testMode'   => true
 ]);

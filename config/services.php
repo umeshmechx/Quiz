@@ -47,5 +47,9 @@ return [
     'client_secret' => '7ET5tKjn__WKnkF0koJbWYhS', 
     'redirect' => 'https://www.fortune-quiz.in/login/google/callback',//'http://127.0.0.1:8000/login/google/callback',
     ],
+     'karix' => [
+        'id' => env('KARIX_ID'),
+        'token' => env('KARIX_TOKEN'),
+    ],
 
 ];

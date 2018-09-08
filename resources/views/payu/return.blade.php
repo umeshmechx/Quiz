@@ -3,12 +3,12 @@
 
 use Razzbee\PayUMoney\PayUMoney;
 
-require 'vendor/autoload.php';
+//require 'vendor/autoload.php';
 
 $payumoney = new PayUMoney([
-    'merchantId' => 'YOUR_MERCHANT_ID',
-    'secretKey'  => 'YOUR_SECRET_KEY',
-    'salt'       =>  'YOUR_SALT',
+    'merchantId' => 'koYEiDcf',
+    'secretKey'  => 'e8e9ojGDNTxUWRIBsKBt/m/JicyY9xGlbwZGG8JScgw=',
+    'salt'       =>  'X5gE17PVwc',
     'testMode'   => true
 ]);
 
